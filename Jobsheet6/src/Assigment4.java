@@ -16,6 +16,9 @@ public class Assigment4 {
             if (angle1 == angle2 && angle1 == angle3){
                 System.out.println("Your triangle is equiangular");
             }
+            else if (angle1 == 90 || angle2 == 90 || angle3 == 90){
+                System.out.println("Your triangle is Right angled");
+            }
             else if (angle1>90 || angle2>90 || angle3>90){
                 System.out.println("Your triangle is Obtuse angled");
             }
